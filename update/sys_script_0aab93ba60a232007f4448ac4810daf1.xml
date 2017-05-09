@@ -4,9 +4,9 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>false</action_insert>
+        <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -32,15 +32,16 @@
 
 	// Add your code here
 	gs.addInfoMessage('Sample BR has run');
+	gs.debug('Goodbye');
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-09 17:45:29</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0aab93ba60a232007f4448ac4810daf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Sample</sys_name>
         <sys_overrides/>
         <sys_package display_value="K17" source="x_snc_k17">b40b977a60a232007f4448ac4810da84</sys_package>
@@ -49,7 +50,7 @@
         <sys_scope display_value="K17">b40b977a60a232007f4448ac4810da84</sys_scope>
         <sys_update_name>sys_script_0aab93ba60a232007f4448ac4810daf1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-05-09 17:45:29</sys_updated_on>
+        <sys_updated_on>2017-05-09 18:02:24</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
